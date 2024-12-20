@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-
+import pdf from "../../Assets/certificate.pdf";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -20,7 +20,7 @@ function AboutCard() {
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
+          <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -36,6 +36,50 @@ function AboutCard() {
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Kalaiyarasan Dass</footer>
+            <br />
+            <br />
+            <p style={{ textAlign: "justify" }}>
+            Here are some of my certifications:
+            </p>
+            <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+            
+            <li className="about-certification">
+              <ImPointRight /> 
+              <a href="https://www.guvi.in/share-certificate/77o41E5Z4jAHX13R96" target="_blank" rel="noopener noreferrer">
+              Certified MERN Stack Developer
+              </a>
+            </li>
+            <li className="about-certification">
+              <ImPointRight /> 
+              <a href="https://www.guvi.in/share-certificate/5V16G129ht107Rj7p2" target="_blank" rel="noopener noreferrer">
+              AWS fundamentals
+              </a>
+            </li>
+            <li className="about-certification">
+              <ImPointRight /> 
+              <a href="https://www.guvi.in/share-certificate/6x3p16AN73C36d73k0" target="_blank" rel="noopener noreferrer">
+              Darkweb
+              </a>
+            </li>
+            <li className="about-certification">
+              <ImPointRight /> 
+              <a href="https://www.guvi.in/share-certificate/4V4E735769g81q4wS1" target="_blank" rel="noopener noreferrer">
+             Bootstrap
+              </a>
+            </li>
+            <li className="about-certification">
+              <ImPointRight /> 
+              <a href="https://www.guvi.in/share-certificate/eH103r656K10U9A83j" target="_blank" rel="noopener noreferrer">
+              Python
+              </a>
+            </li>
+            <li className="about-certification">
+              <ImPointRight /> 
+              <a href={pdf} target="_blank" rel="noopener noreferrer">
+             Data Science 
+              </a>
+            </li>
+            </ul>
         </blockquote>
       </Card.Body>
     </Card>
