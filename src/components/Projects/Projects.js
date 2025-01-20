@@ -64,7 +64,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={redux}
+              imgPath={podcast}
               isBlog={false}
               title="Podcast"
               description="A podcast web app that allows users to browse, stream, and download their favorite podcasts. Features include a searchable directory, episode playlists, and user subscriptions. The app provides detailed information about each podcast, including episode descriptions and release dates. Built with [React/Nodejs/Mongodb/JavaScript/HTML/CSS], it demonstrates skills in API integration, state management, and responsive design."
