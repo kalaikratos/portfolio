@@ -62,6 +62,16 @@ function Projects() {
               demoLink="https://musicplayer-k629hfd7m-kalaiyarasan-dasss-projects.vercel.app/"              
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={redux}
+              isBlog={false}
+              title="Podcast"
+              description="A podcast web app that allows users to browse, stream, and download their favorite podcasts. Features include a searchable directory, episode playlists, and user subscriptions. The app provides detailed information about each podcast, including episode descriptions and release dates. Built with [React/Nodejs/Mongodb/JavaScript/HTML/CSS], it demonstrates skills in API integration, state management, and responsive design."
+              ghLink="https://github.com/kalaikratos/Podstream-main.git"
+              demoLink="https://podstream-main.vercel.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -71,7 +81,7 @@ function Projects() {
               description=" An e-commerce site built with React and Redux for state management. It features product listings, a shopping cart. Users can browse products, add items to their cart. The site uses Redux to manage the state of the cart and user sessions, ensuring a seamless and responsive user experience. Built with [React/Redux/JavaScript/HTML/CSS] and optimized for both mobile and desktop devices. Demonstrates skills in state management, asynchronous actions, and UI design.."
              
               ghLink="https://github.com/kalaikratos/FSD/tree/01ee5d8299da9e5b484a059888736956661b18ef/ROADMAP/redux"
-              demoLink="https://vercel.com/kalaiyarasan-dasss-projects/redux/CRMn5ntsRLPyiGyMHLUCQujnzy4e"
+              demoLink="https://redux-olive.vercel.app/"
             />
           </Col>
 
