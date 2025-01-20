@@ -39,7 +39,7 @@ function Projects() {
               title="Ecommerce"
               description= "A full-featured e-commerce platform includes user authentication, product management, shopping cart functionality, and order processing. The platform supports secure payment integration, user reviews, and product search capabilities. Built with [Node.js/React/MongoDB/JavaScript/HTML/CSS], it demonstrates skills in full-stack development, RESTful API design, and responsive UI/UX design."
               ghLink="https://github.com/kalaikratos/mern-ecommerce-main.git"
-              demoLink="https://mern-ecommerce-main.vercel.app/"
+              demoLink="https://mern-ecommerce-main-wheat.vercel.app/"
             />
           </Col>
 
