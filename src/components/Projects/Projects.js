@@ -7,6 +7,7 @@ import weather from "../../Assets/Projects/weather.png";
 import pricetag from "../../Assets/Projects/pricetag.png";
 import redux from "../../Assets/Projects/redux.png";
 import music from "../../Assets/Projects/music.png";
+import podcast from "../../Assets/Projects/podcast.png";
 
 function Projects() {
   return (
