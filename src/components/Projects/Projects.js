@@ -8,6 +8,7 @@ import pricetag from "../../Assets/Projects/pricetag.png";
 import redux from "../../Assets/Projects/redux.png";
 import music from "../../Assets/Projects/music.png";
 import podcast from "../../Assets/Projects/podcast.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
 
 function Projects() {
   return (
@@ -29,6 +30,16 @@ function Projects() {
               description="An **Inventory Management Tool** I developed to help businesses track and manage their stock in real-time. It features barcode scanning, low-stock alerts, automated replenishment, and detailed reporting, enabling efficient inventory control. The tool integrates with other systems (e.g., ERP, e-commerce platforms) and supports multi-location management, optimizing stock levels and improving decision-making.Built with [React/JavaScript/HTML/CSS/Nodejs/Mongodb] and optimized for both mobile and desktop devices."
               ghLink="https://github.com/kalaikratos/capstoneProject.git"
               demoLink="https://capstone-project-psi-jade.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce} 
+              isBlog={false}
+              title="Ecommerce"
+              description= "A full-featured e-commerce platform includes user authentication, product management, shopping cart functionality, and order processing. The platform supports secure payment integration, user reviews, and product search capabilities. Built with [Node.js/React/MongoDB/JavaScript/HTML/CSS], it demonstrates skills in full-stack development, RESTful API design, and responsive UI/UX design."
+              ghLink="https://github.com/kalaikratos/mern-ecommerce-main.git"
+              demoLink="https://mern-ecommerce-main.vercel.app/"
             />
           </Col>
 
